@@ -1,0 +1,22 @@
+<Resource name="jdbc/basicjsp"
+           auth="Container"
+           type="javax.sql.DataSource"
+           driverClassName="com.mysql.cj.jdbc.Driver" 
+           username="jspid"
+           password="jsppass"
+           url="jdbc:mysql://localhost:3306/basicjsp?serverTimezone=Asia/Seoul"
+           maxWait="5000"       
+ />
+
+
+<Context path="/StudyBasicJSP"  docBase="c:\apache-tomcat-8.5.69\webapps\StudyBasicJSP">
+  <Resource name="jdbc/basicjsp"
+           auth="Container"
+           type="javax.sql.DataSource"
+           driverClassName="com.mysql.cj.jdbc.Driver" 
+           username="jspid"
+           password="jsppass"
+           url="jdbc:mysql://localhost:3306/basicjsp?serverTimezone=Asia/Seoul"
+           maxWait="5000"       
+   />
+</Context>

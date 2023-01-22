@@ -1,0 +1,22 @@
+   a:link,a:visited,a:active {
+      text-decoration : none;
+   }
+   a:hover {
+      text-decoration : underline;
+      color : red;
+   }
+   TABLE, TD,TR, TH{
+      font-size:9pt;
+   }
+   p{
+      font-size:9pt;
+   }
+   /*registerForm.jsp에서 id="ins"를 정의해둔 곳에 margin-left로 위치 지정 */
+	#ins{
+		margin-left:650px;
+	}
+	/* h1태그를 이용한 글자들은 모두 폰트 사이즈와 색깔 변경 */
+   h1{
+   		font-size:"50pt";
+   		color : red;
+   }
